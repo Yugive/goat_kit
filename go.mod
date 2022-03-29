@@ -1,4 +1,4 @@
-module github.com/Yugive/goat_kit
+module github.com/ngyugive/goat_kit
 
 go 1.16
 

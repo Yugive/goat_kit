@@ -51,8 +51,8 @@ func GoatMod() string {
 	if cachePath == "" {
 		cachePath = filepath.Join(goPath, "mod", "pkg")
 	}
-	if path, err := ModuleVersion("github.com/Yugive/go-web-framework"); err == nil {
+	if path, err := ModuleVersion("github.com/ngyugive/go-web-framework"); err == nil {
 		return filepath.Join(cachePath, path)
 	}
-	return filepath.Join(goPath, "src", "github.com", "Yugive", "go-web-framework")
+	return filepath.Join(goPath, "src", "github.com", "ngyugive", "go-web-framework")
 }

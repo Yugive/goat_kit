@@ -26,7 +26,7 @@ var (
 
 func init() {
 	if repoURL = os.Getenv("GOAT_LAYOUT_REPO"); repoURL == "" {
-		repoURL = "https://github.com/Yugive/go-web-framework.git"
+		repoURL = "https://github.com/ngyugive/go-web-framework.git"
 	}
 	timeout = "60s"
 	CmdNew.Flags().StringVarP(&repoURL, "repo-url", "r", repoURL, "layout repo")

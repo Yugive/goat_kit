@@ -15,7 +15,7 @@ var CmdUpgrade = &cobra.Command{
 
 func Run(cmd *cobra.Command, args []string) {
 	err := base.GoInstall(
-		"github.com/Yugive/go-web-framework",
+		"github.com/ngyugive/go-web-framework",
 		"google.golang.org/protobuf/cmd/protoc-gen-go@latest",
 		"google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest",
 		"github.com/google/gnostic/cmd/protoc-gen-openapi@latest",

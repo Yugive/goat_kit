@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Yugive/goat_kit/pkg/event"
-	"github.com/Yugive/goat_kit/pkg/event/kafka"
+	"github.com/ngyugive/goat_kit/pkg/event"
+	"github.com/ngyugive/goat_kit/pkg/event/kafka"
 	"log"
 	"os"
 	"os/signal"

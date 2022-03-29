@@ -2,7 +2,7 @@ package memory
 
 import (
 	"context"
-	"github.com/Yugive/goat_kit/pkg/event"
+	"github.com/ngyugive/goat_kit/pkg/event"
 	"sync"
 )
 

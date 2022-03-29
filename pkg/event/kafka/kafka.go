@@ -3,7 +3,7 @@ package kafka
 import (
 	"context"
 	"crypto/tls"
-	"github.com/Yugive/goat_kit/pkg/event"
+	"github.com/ngyugive/goat_kit/pkg/event"
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/sasl/plain"
 	"time"
